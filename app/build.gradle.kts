@@ -123,3 +123,7 @@ dependencies {
 tasks.withType<Test> {
     enabled = false
 }
+
+tasks.withType<Test> {
+    enabled = false
+}
