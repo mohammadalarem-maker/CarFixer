@@ -17,7 +17,7 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Create local.properties
-      run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > local.properties
+      run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > app/local.properties${{ secrets.GEMINI_API_KEY }}" > local.properties
     - name: Build with Gradle
       run: ./gradlew assembleDebug
     - name: Upload APK
