@@ -1,0 +1,6 @@
+{
+  "name": "طبيب السيارات AI",
+  "description": "مساعد ذكي لتشخيص أعطال السيارات الكهربائية والميكانيكية وتقديم الحلول السريعة من خلال طرح أسئلة ذكية وفحص تفاعلي للأجزاء",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
