@@ -7,6 +7,12 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        buildConfig = true
+    }
+    defaultConfig {
+        buildConfigField("String", "GEMINI_API_KEY", "\"${System.getenv("GEMINI_API_KEY")}\"")
+    }
   namespace = "com.example"
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
